@@ -31,3 +31,4 @@ def validate(df):
     if not df["URL"].astype(str).str.startswith("http").all():
         raise ValueError("Existen URL inválidas.")
     return True
+#prueba kevin
