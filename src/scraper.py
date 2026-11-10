@@ -86,3 +86,4 @@ def scrape(pages=2, delay=1.0, category_url=CATEGORY_URL):
             libros.extend(parse_products(html))
         time.sleep(delay)
     return libros
+# Verificacion de cambio
